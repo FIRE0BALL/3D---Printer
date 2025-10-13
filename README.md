@@ -1,60 +1,60 @@
-🧱 3D Printer — Hardware Components
-⚙️ Mechanical Parts
+# 🧱 3D Printer — Hardware Components
 
-🧩 Frame structure
+> 🧠 This repository provides everything you need to **plan, build, and operate a custom 3D printer from scratch**.
 
-🛞 Linear motion components
+---
 
-🪵 Print bed assembly
+## ⚙️ Mechanical Parts
+- 🧩 **Frame Structure**  
+- 🛞 **Linear Motion Components**  
+- 🪵 **Print Bed Assembly**  
+- 🔥 **Extruder & Hotend Specifications**
 
-🔥 Extruder & hotend specifications
+---
 
-⚡ Electronics
+## ⚡ Electronics
+- 🧠 **Main Controllers:** Arduino Mega boards  
+- 🎛️ **Stepper Motors & Drivers**  
+- 🔋 **Power Supply Requirements**  
+- 🧭 **Sensors**  
+- 💡 **Displays:** *(not for now)*  
+- 🔌 **Wiring Specifications**
 
-🧠 Main controllers (e.g., Arduino Mega boards)
+---
 
-🎛️ Stepper motors & drivers
+## 🧰 Assembly Tools
+- 🧱 Complete list of tools required for printer assembly  
 
-🔋 Power supply requirements
+---
 
-🧭 Sensors
+## 🖊️ 3D Modeling Software
+- 🧒 **Beginner-Friendly:** [Tinkercad] 
+- 👨‍💻 **Professional:** [Fusion 360]
 
-💡 Displays (not for now)
+---
 
-🔌 Wiring specifications
+## 🧠 Slicing Software
+- ✂️ **Popular Option:** [Cura]
+---
 
-🧰 Assembly Tools
+## 💻 Development Tools
+- 🪶 **Arduino IDE**  
+- 🧩 **PlatformIO**
 
-🧱 Complete list of tools required to build the printer
+---
 
-🖊️ 3D Modeling Software
+## 📂 File Formats
+- 🧱 **STL**, **G-code**, and other essential file formats explained  
 
-🧒 Beginner-friendly: Tinkercad
+---
 
-👨‍💻 Professional: Fusion 360
+## 📖 Additional Documentation
+- 💽 **Operating System Compatibility Matrix**  
+- ✨ **Optional Enhancements:** LED lighting, enclosures  
+- 🚀 **Step-by-Step Getting Started Guide**  
+- 🌐 **Curated List of Resources & Community Links**
 
-🧠 Slicing Software
+---
 
-✂️ Popular option: Cura
-
-💻 Development Tools
-
-🪶 Arduino IDE
-
-🧩 PlatformIO
-
-📂 File Formats
-
-🧱 Explanation of STL, G-code, and other essential formats
-
-📖 Additional Documentation
-
-💽 Operating system compatibility matrix
-
-✨ Optional enhancements (LED lighting, enclosures)
-
-🚀 Step-by-step Getting Started Guide
-
-🌐 Curated list of valuable resources & community links
-
-🧠 This repo provides everything you need to plan, build, and operate a custom 3D printer from scratch.
+⭐ **Build. Create. Innovate.**  
+Your open-source journey to a custom 3D printer starts here! 🖨️
