@@ -1,26 +1,60 @@
-# 3D---printer
+🧱 3D Printer — Hardware Components
+⚙️ Mechanical Parts
 
-Hardware Components
+🧩 Frame structure
 
-Mechanical Parts: Frame structure, linear motion components, print bed assembly, extruder and hotend specifications
+🛞 Linear motion components
 
-Electronics: Main controllers (Arduino Mega boards), stepper motors and drivers, power supply requirements, sensors, displays(not for now), and wiring specifications
+🪵 Print bed assembly
 
-Assembly Tools: Complete list of tools needed for building the printer
- 
-3D Modeling Software: CAD tools ranging from beginner-friendly (Tinkercad) to professional (Fusion 360)
+🔥 Extruder & hotend specifications
 
-Slicing Software: Popular options including Cura.
+⚡ Electronics
 
-Development Tools: Arduino IDE, PlatformIO.
+🧠 Main controllers (e.g., Arduino Mega boards)
 
-File Formats: Explanation of STL, G-code, and other relevant formats
+🎛️ Stepper motors & drivers
 
-Additional Documentation
-Operating system compatibility matrix
-Optional enhancements (LED lighting, enclosures)
-Step-by-step getting started guide
-Curated list of valuable resources and community links
+🔋 Power supply requirements
 
-This Repo provides everything needed to plan, build, and operate a custom 3D printer from scratch.
+🧭 Sensors
 
+💡 Displays (not for now)
+
+🔌 Wiring specifications
+
+🧰 Assembly Tools
+
+🧱 Complete list of tools required to build the printer
+
+🖊️ 3D Modeling Software
+
+🧒 Beginner-friendly: Tinkercad
+
+👨‍💻 Professional: Fusion 360
+
+🧠 Slicing Software
+
+✂️ Popular option: Cura
+
+💻 Development Tools
+
+🪶 Arduino IDE
+
+🧩 PlatformIO
+
+📂 File Formats
+
+🧱 Explanation of STL, G-code, and other essential formats
+
+📖 Additional Documentation
+
+💽 Operating system compatibility matrix
+
+✨ Optional enhancements (LED lighting, enclosures)
+
+🚀 Step-by-step Getting Started Guide
+
+🌐 Curated list of valuable resources & community links
+
+🧠 This repo provides everything you need to plan, build, and operate a custom 3D printer from scratch.
