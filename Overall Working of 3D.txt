@@ -87,7 +87,7 @@ Since the CNC Shield does not natively support 3D printing, you need firmware th
 ---
 
 ### **7. Running the Printer**
-- Load slicing software like **Cura** or **PrusaSlicer**.
+- Load slicing software like **Cura**
 - Export G-code and send it via **Pronterface** or **OctoPrint**.
 - Start printing and fine-tune the settings.
 
@@ -99,5 +99,4 @@ Since the CNC Shield does not natively support 3D printing, you need firmware th
 - **Weak power handling**: The shield isn’t designed for high-power heated beds.
 
 For **better results**, consider using **RAMPS 1.4 with an Arduino Mega** instead of the CNC Shield, as it’s fully compatible with Marlin.
-
-Would you like help with wiring diagrams or firmware configurations? 🚀
+ 🚀
