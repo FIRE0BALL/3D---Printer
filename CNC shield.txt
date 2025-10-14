@@ -1,0 +1,48 @@
+CNC shield V3.0(COMPUTER NUMERICAL CONTROL)
+ -GRBL Firmware support(Open Source)(Translate GCODE to steps and direction signals.)
+ -works with UNO
+ -support A4988 & DRV8825 drive modules
+
+A4988 Drive Module
+ -widely used to control BIPOLAR stepper motor
+ -PINS
+  -Control pin:
+   1.Step = input to control steps
+   2.Direction = input to control direction
+   3.Enable = Activate or Deactivate
+  -Microstepping Pins:
+    MS1,MS2,MS3 = logic HIGH or LOW
+  -Outputs:
+    2A/2B and 1A/1B connect with 2 coil of motor
+
+
+
+
+We need to adjust potentiometer on Drive module according our current requirement. 
+Using V=IR formula.
+V(ref) = I(motor) * 
+(A4988 gets hot in 2A its require cooling fan, heat sink) 
+
+
+
+
+
+
+
+
+
+---------------HOW TO USE, CHECK STEPPER MOTOR------------
+
+
+# Connect UNO with CNC shield 
+# Connect A4988 drive module on CNC
+# Run grbl library from example code.(grbl library is not preinstalled, install it from web) 
+# Install <universal Gcode sender> application 
+# extract and run UGSPLATFORM from bin folder
+# firmware-GRBL,    baud rate-115200,    port -should be same as UNO's port in Arduino IDE
+# click on connect icon (left of firmware)
+# check console
+# control Motors from JOG CONTROLLER.
+
+
+

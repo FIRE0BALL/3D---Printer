@@ -1,0 +1,62 @@
+STEPPER MOTOR----NEMA 17(HANPOSE 17HS4401)
+
+
+BIPOLAR---4 wires ----(RED,GREEN)--(YELLOW,BLUE)
+
+
+CONNECTION with L298N
+	RED  --OUT1
+	GREEN--OUT2
+
+	YELLLOW --OUT3
+	BLUE   ---OUT4
+
+
+	IN1-to-IN4 at pin 8-to-11
+	JUMP ENA with +5v
+	     ENB with +5v
+
+	12V, 2AMP supply 
+	connect UNO GND to L298N -ve
+
+
+CODE from EXAMPLE CODE of Arduino IDE
+	File>Examples>Stepper>Stepper_oneRevolution
+
+
+
+
+*******CODE EXPLANATION*******
+
+
+
+
+
+#include <Stepper.h>    /////include stepper library (already preinstalled)
+
+const int stepsPerRevolution = 240;  //////  OTHER NEMA 17 stepper motor have 200 stepsperrevolution but this is taking 240 to complete one revolution.
+
+Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);   /////Give your stepper motor name here(mystepper), give steps per revolution(also can write 240) and define pin connect to digital pin on Arduino in correct order 8, 9, 10, 11.
+
+
+
+
+
+void setup() {
+  myStepper.setSpeed(60);  ///// start from 55 speed to ???:
+
+  Serial.begin(9600);  }
+
+void loop() {
+  Serial.println("clockwise");//  // step one revolution  in one direction:
+
+  myStepper.step(stepsPerRevolution);////will make one revolution, if we write stepsPerRevolution / 2, it will make half revolution
+  delay(500);
+
+  Serial.println("counterclockwise");
+  myStepper.step(-stepsPerRevolution);////Opposite direction
+  delay(500);
+}
+
+
+
