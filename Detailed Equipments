@@ -1,5 +1,6 @@
 STEPPER MOTORS
     3 - Prorange stepper motor 1684-01-R
+    2 - NEMA17 Normal Motors(Don't know the name prefixed)
 MICROCONTROLLER
     1 - Arduino MEGA
     
