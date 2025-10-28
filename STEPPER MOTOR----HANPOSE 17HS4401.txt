@@ -1,7 +1,7 @@
 STEPPER MOTOR----NEMA 17(HANPOSE 17HS4401)
+& PRORANGE----
 
-
-BIPOLAR---4 wires ----(RED,GREEN)--(YELLOW,BLUE)
+BIPOLAR---4 wires ---(RED,GREEN)--(YELLOW,BLUE)
 
 
 CONNECTION with L298N
@@ -57,6 +57,7 @@ void loop() {
   myStepper.step(-stepsPerRevolution);////Opposite direction
   delay(500);
 }
+
 
 
 
