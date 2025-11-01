@@ -1,3 +1,11 @@
+THE STEPPER MOTOR WITH L298N IS ONLY FOR TESTING OF THE MOTOR 
+  - The L298N gets Heated up in high AMPS
+  - Motor shows constant error 
+  
+
+
+
+
 // connect motor controller pins to Arduino digital pins
 // motor one
 int enA = 10;
