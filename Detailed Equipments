@@ -3,4 +3,10 @@ STEPPER MOTORS
     2 - NEMA17 Normal Motors(Don't know the name prefixed)
 MICROCONTROLLER
     1 - Arduino MEGA
+    1 - CNC shield V3 for MEGA
+DRIVERS
+    5 - A4988 Driver Module
+POWER SUPPLY
+    1 - 12v 10 amp
+
     
